@@ -40,18 +40,17 @@
                     </div>
 
                     <!-- configuration & shipping info buttons -->
-
                     <!-- Memory -->
                     <p class="mb-10 font-semibold">
 
                         Memory
                         <br>
-                        <button
+                        <button id="memory-type1-btn"
                             class="my-2 mr-2 px-5 py-2 text-sm  border border-gray-400 shadow hover:shadow-xl hover:bg-blue-300  focus:ring-2 focus:ring-blue-500 rounded-md">
                             BGB unified memory
                         </button>
 
-                        <button
+                        <button id="memory-type2-btn"
                             class="my-2 mr-2 px-5 py-2 text-sm  border border-gray-400 shadow hover:shadow-xl hover:bg-blue-300  focus:ring-2 focus:ring-blue-500 rounded-md">
                             16GB unified memory
                         </button>
@@ -63,17 +62,17 @@
 
                         Storage
                         <br>
-                        <button
+                        <button id="storage-type1-btn"
                             class="my-2 mr-2 px-5 py-2 text-sm border border-gray-400 shadow hover:shadow-xl hover:bg-blue-300  focus:ring-2 focus:ring-blue-500 rounded-md">
                             256GB SSD storage
                         </button>
 
-                        <button
+                        <button id="storage-type2-btn"
                             class="my-2 mr-2 px-5 py-2 text-sm border border-gray-400 shadow hover:shadow-xl hover:bg-blue-300  focus:ring-2 focus:ring-blue-500 rounded-md">
                             512GB SSD storage
                         </button>
 
-                        <button
+                        <button id="storage-type3-btn"
                             class="my-2 mr-2 px-5 py-2 text-sm border border-gray-400 shadow hover:shadow-xl hover:bg-blue-300  focus:ring-2 focus:ring-blue-500 rounded-md">
                             1TB SSD storage
                         </button>
@@ -85,12 +84,12 @@
 
                         Choose your delivery option
                         <br>
-                        <button
+                        <button id="delivery-type1-btn"
                             class="my-2 mr-2 px-5 py-2 text-sm border border-gray-400 shadow hover:shadow-xl hover:bg-blue-300  focus:ring-2 focus:ring-blue-500 rounded-md">
                             Friday, Aug 25 FREE Prime Delivery
                         </button>
 
-                        <button
+                        <button id="delivery-type2-btn"
                             class="my-2 mr-2 px-5 py-2 text-sm border border-gray-400 shadow hover:shadow-xl hover:bg-blue-300  focus:ring-2 focus:ring-blue-500 rounded-md">
                             Friday, Aug 21 Delivery charge $20
                         </button>
@@ -104,7 +103,7 @@
                         <div class="py-1 font-semibold flex justify-between border-b-2 col-start-1">
 
                             <div>Best Price</div>
-                            <div>$<span>1299</span></div>
+                            <div>$<span id="best-price">1299</span></div>
 
                         </div>
 
@@ -112,7 +111,7 @@
                         <div class="py-1 font-semibold flex justify-between border-b-2 col-start-1">
 
                             <div>Extra Memory Cost</div>
-                            <div>$<span>0</span></div>
+                            <div>$<span id="extra-memory-cost">0</span></div>
 
                         </div>
 
@@ -120,7 +119,7 @@
                         <div class="py-1 font-semibold flex justify-between border-b-2 col-start-1">
 
                             <div>Extra Storage Cost</div>
-                            <div>$<span>0</span></div>
+                            <div>$<span id="extra-storage-cost">0</span></div>
 
                         </div>
 
@@ -128,7 +127,7 @@
                         <div class="py-1 font-semibold flex justify-between border-b-4 border-gray-600 col-start-1">
 
                             <div>Delivery Charge</div>
-                            <div>$<span>0</span></div>
+                            <div>$<span id="delivery-charge">0</span></div>
 
                         </div>
 
@@ -136,7 +135,7 @@
                         <div class="py-1 font-semibold flex justify-between col-start-1">
 
                             <div>Total Price</div>
-                            <div>$<span>1299</span></div>
+                            <div>$<span id="total">1299</span></div>
 
                         </div>
 
@@ -144,8 +143,8 @@
                         <div class="mt-4 col-start-1 col-span-3">
                             Add Promo Code
                             <br>
-                            <input class="border border-gray-300 p-1 rounded-md" type="text">
-                            <button
+                            <input id="promo-code" class="border border-gray-300 p-1 rounded-md" type="text">
+                            <button id="promo-code-btn"
                                 class="my-2 mr-2 px-3 py-1.5 text-sm font-semibold text-white border border-red-500 bg-red-500 shadow hover:shadow-xl hover:bg-red-600  focus:ring-2 focus:ring-red-800 rounded-md">
                                 Apply
                             </button>
@@ -159,7 +158,7 @@
 
             <hr class="w-2/3 mx-auto mb-4 border-1 border-gray-400">
             <p class="mb-10 text-3xl font-semibold text-justify text-gray-800" style="text-align: center;">
-                Total: $<span>1299</span>
+                Total: $<span id="total-w-promo">1299</span>
             </p>
 
         </section>
