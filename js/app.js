@@ -98,4 +98,5 @@ promoCodeBtn.addEventListener('click', function () {
         totalPriceWithPromoCode.innerText = parseInt(totalPrice.innerText) - parseInt(totalPrice.innerText) * 0.2;
     else
         totalPriceWithPromoCode.innerText = parseInt(totalPrice.innerText);
+    promoCode.value = '';
 })
